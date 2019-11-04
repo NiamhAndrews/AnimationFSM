@@ -21,8 +21,14 @@ public:
 	State* getPrevious();
 	
 	void idle();
+	void walkRight();
+	void walkLeft();
+	void crouching();
 	void jumping();
-	void climbing();
+	void falling();
+	void landing();
+
+	//void climbing();
 
 // Try uncommenting and comment the declaration above
 //private:

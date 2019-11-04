@@ -13,8 +13,8 @@ public:
 		RIGHT,
 		UP,
 		DOWN,
-		C,
-		Space
+		FALLING,
+		LANDING
 	};
 
 	void setCurrent(Action);
