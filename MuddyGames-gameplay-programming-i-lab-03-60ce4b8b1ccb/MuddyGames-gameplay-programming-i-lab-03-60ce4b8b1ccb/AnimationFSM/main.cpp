@@ -58,6 +58,24 @@ int main()
 				{
 					input.setCurrent(Input::Action::UP);
 				}
+				else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
+				{
+					input.setCurrent(Input::Action::DOWN);
+				}
+				else if (sf::Keyboard::isKeyPressed(sf::Keyboard::C))
+				{
+					input.setCurrent(Input::Action::C);
+				}
+				else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
+				{
+					input.setCurrent(Input::Action::Space);
+				}
+				/*
+				else if (sf::Keyboard::isKeyPressed(sf::Keyboard::RControl))
+				{
+					input.setCurrent(Input::Action::Ctrl);
+				}*/
+
 				break;
 			default:
 				input.setCurrent(Input::Action::IDLE);
